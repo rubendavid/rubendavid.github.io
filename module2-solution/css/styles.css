@@ -1,31 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+    text-align: center;
+}
 p {
     border: 1px solid black;
-    background-color: white;
-    padding:10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
-    width: 90%;
-    height: 150px;
-    margin-right: auto;
-    margin-left: auto;
+    background-color: goldenrod;float: right;
+    width: 60px;
+    height: 25px;
     font-family: Helvetica;
-    color: black;
-}
+    color: white;
+    }
+
+/* Simple Responsive Framework. */
 .row {
-    margin-bottom: 15px;
+  width: 100%;
 }
-.row-header > div {
-    border: 2px solid black;
-    background-color: skyblue;
+
+/********** Desktop Browsers Only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
 }
-.row-mid > div {
-    border: 2px solid black;
-    background-color: rosybrown;
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    border: 1px solid black;
+  }
+    .col-md-6 {
+    width: 50%;
+  }
 }
-.row-base > div {
-    border: 2px solid black;
-    background-color: salmon;
-}
-.row-footer > div {
-    border: 2px solid black;
-    background-color: blanchedalmond;
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
 }
