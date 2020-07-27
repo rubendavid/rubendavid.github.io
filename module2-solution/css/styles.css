@@ -1,0 +1,31 @@
+p {
+    border: 1px solid black;
+    background-color: white;
+    padding:10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: black;
+}
+.row {
+    margin-bottom: 15px;
+}
+.row-header > div {
+    border: 2px solid black;
+    background-color: skyblue;
+}
+.row-mid > div {
+    border: 2px solid black;
+    background-color: rosybrown;
+}
+.row-base > div {
+    border: 2px solid black;
+    background-color: salmon;
+}
+.row-footer > div {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+}
