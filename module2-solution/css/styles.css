@@ -79,19 +79,21 @@ div.sushi-content {
 @media (min-width: 768px) and (max-width: 991px) {
   .lgbox, .mdbox, .smbox { 
       position: relative;
+      margin: 5px;
       float: left;
       padding: 5px;
       border: 1px solid black;
       text-align: justify;
   }
     .lgbox, .mdbox {
-        width: 50%;
+        width: 48%;
   }
 }
 /********** Mobile Devices **********/
 @media (max-width: 767px) {
   .lgbox, .mdbox, .smbox {
       position: relative;
+      margin: 5px;
       float: left;
       padding: 5px;
       border: 1px solid black;
