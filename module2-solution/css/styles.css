@@ -1,52 +1,106 @@
+body {
+    background-color: #FFE4B5;
+}
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
 * {
   box-sizing: border-box;
 }
-h1 {
-  margin-bottom: 15px;
-    text-align: center;
-}
-p {
-    border: 1px solid black;
-    background-color: goldenrod;float: right;
-    width: 60px;
-    height: 25px;
-    font-family: Helvetica;
-    color: white;
+ span.chicken {
+     position: absolute;
+     top: 0;
+     right: 0;
+     float: right;
+     width: auto;
+     height: 30px;
+     padding: 5px;
+     border: 1px solid black;
+     background-color: coral;
     }
+ span.beef { 
+     position: absolute;
+     top: 0;
+     right: 0;
+     float: right;
+     width: auto;
+     height: 30px;
+     padding: 5px;
+     border: 1px solid black;
+     background-color: darkred;
+     color: azure;
+    }
+ span.sushi { 
+     position: absolute;
+     top: 0;
+     right: 0;
+     float: right;
+     width: auto;
+     height: 30px;
+     padding: 5px;
+     border: 1px solid black;
+     background-color: moccasin;
+     color: chocolate; 
+    }
+div.chick-content {
+    display: block;
+    margin: 25px 0 25px 1px;
+}
+div.beef-content {
+    display: block;
+    margin: 25px 0 25px 1px;
+}
+div.sushi-content {
+    display: block;
+    margin: 25px 0 25px 1px;
+}
 
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
-/********** Desktop Browsers Only **********/
+/********** Desktop Browsers **********/
 @media (min-width: 992px) {
-  .col-lg-4 {
-    float: left;
-    border: 1px solid black;
-  }
-  .col-lg-4 {
+  .lgbox, .mdbox, .smbox {
+      position: relative;
+      padding: 5px;
+      float: left;
+      border: 1px solid black;
+      text-align: justify;
+    }
+  .lgbox, .mdbox, .smbox {
     width: 33.33%;
   }
 }
 
-/********** Medium devices only **********/
+/********** Tablets **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6 {
-    float: left;
-    border: 1px solid black;
+  .lgbox, .mdbox, .smbox { 
+      position: absolute;
+      margin-left: 10px;
+      float: left;
+      padding: 5px;
+      border: 1px solid black;
+      text-align: justify;
   }
-    .col-md-6 {
-    width: 50%;
+    .lgbox, .mdbox {
+        width: 50%;
   }
 }
-/********** Small devices only **********/
+/********** Mobile Devices **********/
 @media (max-width: 767px) {
-  .col-sm-12 {
-    float: left;
-    border: 1px solid black;
-  }
-  .col-sm-12 {
+  .lgbox, .mdbox, .smbox {
+      position: inherit;
+      margin-left: 10px;
+      float: left;
+      padding: 5px;
+      border: 1px solid black;
+      text-align: justify;
+    }
+  .lgbox, .mdbox, .smbox {
     width: 100%;
   }
 }
+
+
