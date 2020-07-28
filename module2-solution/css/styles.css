@@ -64,13 +64,14 @@ div.sushi-content {
 @media (min-width: 992px) {
   .lgbox, .mdbox, .smbox {
       position: relative;
+      margin: 5px;
       padding: 5px;
       float: left;
       border: 1px solid black;
       text-align: justify;
     }
   .lgbox, .mdbox, .smbox {
-    width: 33.33%;
+    width: 32%;
   }
 }
 
