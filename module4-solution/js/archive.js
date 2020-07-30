@@ -82,3 +82,88 @@ changeObject(value); // objValue = value
 console.log("after changeObject, orig value:");
 console.log(value);
 
+// Arrays
+var array = new Array();
+array[0] = "Ruben";
+array[1] = 2;
+array[2] = function (name) {
+  console.log("Hello " + name);
+};
+array[3] = {course: " HTML, CSS & JS"};
+
+console.log(array);
+array[2](array[0]);
+console.log(array[3].course);
+
+var myObj = {
+  name: "Yaakov",
+  course: "HTML/CSS/JS",
+  platform: "Courera"
+};
+for (var prop in myObj) {
+  console.log(prop + ": " + myObj[prop]);
+}
+
+// Short hand array creation
+var names = ["Ruben", "Wilma", "Christian", "Andreis", "Isabella"];
+console.log(names);
+
+for (var i = 0; i < names.length; i++) {
+  console.log("Hello " + names[i]);
+}
+
+names[100] = "Jim";
+for (var i = 0; i < names.length; i++) {
+  console.log("Hello " + names[i]);
+}
+
+
+var names2 = ["Ruben", "Wilma", "Christian", "Andreis", "Isabella"];
+for (var name in names2) {
+  console.log("Hello " + names2[name]);
+}
+names2.greeting = "Hi!";
+for (var name in names2) {
+  console.log("Hello " + names2[name]);
+}
+
+var counter = 0;
+var myArray = ["Yaakov", 2, {handle: "yaakovchaikin"}];
+for (var i = 0; i < myArray.length; i++) {
+  counter++;
+}
+console.log(counter);
+
+1  (function(window) {
+2 
+3  var obj = {};
+4
+5  obj.dreamOn = function () {
+6   console.log("I want to see the global scope! Let me out!");
+7  };
+8
+9  window.doer = obj;
+10 
+11 });
+12
+13 doer.dreamOn();
+
+// Closures
+function makeMultiplier (multiplier) {
+  // var multiplier = 2;
+  function b() {
+    console.log("Multiplier is: " + multiplier);
+  }
+  b();
+
+
+  return (
+      function (x) {
+        return multiplier * x;
+      }
+
+    );
+}
+
+var doubleAll = makeMultiplier(2);
+console.log(doubleAll(10)); // its own exec env
