@@ -7,7 +7,7 @@
 	<title>StackSkills Chapter One</title>
         <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap/css/styles.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,14 +17,16 @@
     <![endif]-->
 </head>
 <body>
-    <form method="get">
-        <input type="text" name="email">
-        <input type="password" name="password">
-        <input type="submit">
-    </form>
+    <div id="form">
+        <form method="get">
+            <input type="text" name="email">
+            <input type="password" name="password">
+            <input type="submit">
+        </form>
+    </div>
 
     <footer>
-        crafted with &hearts; in VB by <a href="#">Ruben David</a>
+        crafted with <span id="heart">&hearts;</span> by <a href="#">Ruben David</a>
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -1,22 +1,19 @@
 body {
+    width: 100%;
+    background-color: white;
     padding-top: 40px;  
     position: relative;
     height: 100%;
 }
-
-.highlight {
-    background: pink;   
-    border: solid 1px #555;
+footer a {
+    color: black;
 }
-
-.small-box {
-    width: 300px;
+footer span {
+    color: red;
 }
-
-#scrollerBox {
-    position: relative;
+div {
+    background-color: black;
+    width: 600px;
     height: 400px;
-    overflow: auto;
-    border: solid 1px #ccc;
+    box-align: center;
 }
-
