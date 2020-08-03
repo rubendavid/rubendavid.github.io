@@ -1,3 +1,6 @@
-names = ["Harry", "Ron", "Hermine"]
+# Define a list of names.
+names = ["Harry", "Ron", "Hermione", "Ginny"]
 
-print(names[1])
+print(names)
+
+names.append("Draco")
