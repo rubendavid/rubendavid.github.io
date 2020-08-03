@@ -90,12 +90,9 @@ p {
 /* Collapsed nav menu glyph */
 #collapsable-nav a {
     font-size: 1.4em;
-    text-align: center;
 
 }
 #collapsable-nav a span {
     font-size: 1em;
-    margin: center;
     margin-right: 5px;
-    text-align: center;
 }
