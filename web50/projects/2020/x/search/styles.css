@@ -14,11 +14,26 @@ body {
     text-align: center;
     
 }
+#container-image {
+    width: 580px;
+    margin: 140px auto 0;
+    text-align: center;
+    
+}
 
 h1#logo {
     width: 269px;
     height: 95px;
     background: url('images/google.png') top left no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+h1#logo-image {
+    width: 269px;
+    height: 95px;
+    background: url('images/image-logo.PNG') top left no-repeat;
     background-size: 100%;
     text-indent: -9999px;
     margin: 0 auto;
