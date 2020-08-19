@@ -96,13 +96,3 @@ print(mydog.age)
 print(Dog.dogInfo)
 print(Dog.dogpond)
 print(Dog.dogdoodoo)
-
-class Car
-
-def__init(self, year)
-self.year = (2016)
-
-
-def age(self):
-    self.age = (2018 - year)
-    return self.age
