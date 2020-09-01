@@ -10,33 +10,24 @@ body {
 
 #container {
     width: 580px;
-    margin: 140px auto 0;
-    text-align: center;
+    margin: 0 0 0 20px;
+    text-align: right;
     
 }
 #container-image {
     width: 580px;
-    margin: 140px auto 0;
+    margin: 0 0 0 10px;
     text-align: center;
     
 }
 
-h1#logo {
-    width: 269px;
-    height: 95px;
+h1#logo-sm {
+    width: 134px;
+    height: 47px;
     background: url('images/google.png') top left no-repeat;
     background-size: 100%;
     text-indent: -9999px;
-    margin: 0 auto;
-}
-
-h1#logo-image {
-    width: 269px;
-    height: 95px;
-    background: url('images/image-logo.PNG') top left no-repeat;
-    background-size: 100%;
-    text-indent: -9999px;
-    margin: 0 auto;
+    margin: 0 0 0 10px;
 }
 
 input[type="text"] {
