@@ -1,6 +1,3 @@
-# Define a list of names.
-names = ["Harry", "Ron", "Hermione", "Ginny"]
-
-print(names)
-
-names.append("Draco")
+name = "Alice"
+coordinates = (10.0, 20.0)
+names = ["Alice", "Bob", "Charlie"]
