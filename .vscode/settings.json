@@ -2,6 +2,6 @@
 <<<<<<< HEAD
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python3"
 =======
-    "python.pythonPath": "C:\\Python38\\python.exe"
+    "python.pythonPath": "/usr/local/bin/python3"
 >>>>>>> ab977c8daf8c4316c74510b6f0aaf18a6b3535a1
 }
