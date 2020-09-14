@@ -1,0 +1,46 @@
+/* Repetition works so you will see extra stuff
+to help keep it fresh in my memory.
+Generic CSS file for future use*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: blueviolet;
+    font-size: 75px;
+    text-align: center;
+}
+.box {
+    margin-top: 50px;
+}
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    padding: ;
+}
+input {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+p {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    padding: ;
+}
+textarea {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    padding: ;
+}
