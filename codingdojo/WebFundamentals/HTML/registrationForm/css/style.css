@@ -16,31 +16,25 @@ h1 {
 }
 label {
     display: inline-block;
-    float: left;
-    clear: left;
     width: 250px;
     text-align: right;
-    padding: ;
 }
 input {
     display: inline-block;
-    float: left;
     padding: 10px;
     margin-bottom: 5px;
 }
 p {
     display: inline-block;
-    float: left;
-    clear: left;
     width: 250px;
     text-align: right;
-    padding: ;
 }
 textarea {
     display: inline-block;
-    float: left;
-    clear: left;
     width: 250px;
-    text-align: right;
-    padding: ;
+    height: 250px;
+}
+.submit {
+    clear: left;
+    float: none;
 }
