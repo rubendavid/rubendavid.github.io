@@ -18,21 +18,21 @@
     min-height: 300px;
     width: 200px;
     background-color: blue;
-    float: left;
+    display:inline-block;
     margin: 10px;
 }
 #main_content{
     min-height: 400px;
     width: 750px;
     background-color: red;
-    float: right;
+    display:inline-block;
     margin: 10px;
 }
 .subcontents1{
     min-height: 200px;
     width: 230px;
     background-color: yellow;
-    float: left;
+    display:inline-block;
     margin: 10px 10px 10px 10px;
 }
 .subcontents2{
@@ -40,19 +40,19 @@
     width: 230px;
     background-color: yellow;
     margin: 10px 10px 10px 5px;
-    float: left;
+    display:inline-block;
 }
 .subcontents3{
     min-height: 200px;
     width: 230px;
     background-color: yellow;
     margin: 10px 10px 10px 5px;
-    float: left;
+    display:inline-block;
 }
 #advertisement{
     min-height: 120px;
     width: 700px;
     background-color: purple;
-    float: inherit;
+    display:inline-block;
     margin: 10px 30px;
 }
