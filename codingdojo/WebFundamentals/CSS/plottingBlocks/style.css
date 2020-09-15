@@ -4,6 +4,7 @@
     padding: 0px;
 }
 #wrapper{
+    margin: auto;
     width: 1000px;
     background-color: silver;
     overflow: hidden;
@@ -18,40 +19,40 @@
     width: 200px;
     background-color: blue;
     float: left;
-    margin-top: 20px;
+    margin: 10px;
 }
 #main_content{
     min-height: 400px;
     width: 750px;
     background-color: red;
     float: right;
-    margin: 20px;;
+    margin: 10px;
 }
 .subcontents1{
     min-height: 200px;
-    width: 233px;
+    width: 230px;
     background-color: yellow;
     float: left;
-    margin: 10px 5px;
+    margin: 10px 10px 10px 10px;
 }
 .subcontents2{
     min-height: 200px;
-    width: 233px;
+    width: 230px;
     background-color: yellow;
-    margin: 10px 5px;
+    margin: 10px 10px 10px 5px;
     float: left;
 }
 .subcontents3{
     min-height: 200px;
-    width: 233px;
+    width: 230px;
     background-color: yellow;
-    margin: 10px 5px;
+    margin: 10px 10px 10px 5px;
     float: left;
 }
 #advertisement{
     min-height: 120px;
-    width: 699px;
+    width: 700px;
     background-color: purple;
-    float: left;
+    float: inherit;
     margin: 10px 30px;
 }
