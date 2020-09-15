@@ -18,6 +18,7 @@
     min-height: 300px;
     width: 200px;
     background-color: blue;
+    vertical-align: top;
     display:inline-block;
     margin: 10px;
 }
