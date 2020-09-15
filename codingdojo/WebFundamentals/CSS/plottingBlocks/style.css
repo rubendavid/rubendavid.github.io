@@ -4,44 +4,54 @@
     padding: 0px;
 }
 #wrapper{
-    width: 950px;
+    width: 1000px;
     background-color: silver;
-    margin: 0px auto;
+    overflow: hidden;
 }
 #header{
-    min-height: 150px;
+    min-height: 125px;
+    width: 1000px;
     background-color: green;
-    display: flex;
 }
 #navigation{
     min-height: 300px;
     width: 200px;
     background-color: blue;
-    display: inline-flex;
+    float: left;
+    margin-top: 20px;
 }
 #main_content{
     min-height: 400px;
-    width: 700px;
+    width: 750px;
     background-color: red;
+    float: right;
+    margin: 20px;;
 }
 .subcontents1{
     min-height: 200px;
-    width: 210px;
+    width: 233px;
     background-color: yellow;
+    float: left;
+    margin: 10px 5px;
 }
 .subcontents2{
     min-height: 200px;
-    width: 210px;
+    width: 233px;
     background-color: yellow;
+    margin: 10px 5px;
+    float: left;
 }
 .subcontents3{
     min-height: 200px;
-    width: 210px;
+    width: 233px;
     background-color: yellow;
+    margin: 10px 5px;
+    float: left;
 }
-
 #advertisement{
     min-height: 120px;
-    width: 660px;
+    width: 699px;
     background-color: purple;
+    float: left;
+    margin: 10px 30px;
 }
