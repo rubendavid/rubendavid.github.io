@@ -1,0 +1,67 @@
+/* 10 CSS SELECTORS YOU SHOULDN’T CODE WITHOUT */
+
+* { /* * Resets the page */
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+}
+/* an adjacent selector and what it does is selects the element that is 
+immediately after the first element. If you wanted to select the first
+div after our header you would type: */
+
+header + div {
+    margin-top: 50px;
+}
+ul > li {
+    background: black;
+    color: white;
+}
+a[href*="facebook"] {
+    color: blue;
+}
+div:not(.footer) { /* Not the footer */
+    margin-bottom: 40px;
+}
+/* The first-child and last-child allow us to select the first and last child of the parent element.
+This can be a great help when it comes to list items and removing the margin-right or borders. 
+To remove the border in the first list item and the margin in the last list item you need: */
+
+ul li:first-child {  
+    border: none;  
+}     
+ul li:last-child {  
+    margin-right: 0px;
+} 
+/* The nth-child is a simple way for you to select any child of an element by its order.
+If for example you wanted the third list item in an unordered list this would be the way to go: */
+
+ul li:nth-child(3) {
+    background: #ccc;
+}
+
+/* The nth-last-child works like the nth-child but instead of counting form the first list item
+it starts counting from the last , so if you use it with the number
+two it will select the list item that comes before the last one and
+its usage is just like the nth-child selector: */
+
+ul li:nth-last-child(2) {
+    background: #ccc;
+}
+
+/* This selector does exactly what you think it does; it sees what type of element you placed on it and it selects,
+for example, the third element on your page that matches what you typed.
+For selecting the third paragraph in a div you would use: */
+
+div p:nth-of-type(3) {
+    font-style: italic;
+}
+
+/* Ever noticed that when you search for something on google the pages you have already seen appear in a different color?
+That is exactly what visited does.
+This is a great addition for the users but it’s sometimes forgotten and
+by my experience it’s comes in handy every time I search google. */
+
+a:visited {
+    color: blue;
+}
