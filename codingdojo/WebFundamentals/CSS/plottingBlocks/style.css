@@ -4,7 +4,7 @@
     padding: 0px;
 }
 #wrapper{
-    margin: auto;
+    margin: 10px auto;
     width: 1000px;
     background-color: silver;
     overflow: hidden;
