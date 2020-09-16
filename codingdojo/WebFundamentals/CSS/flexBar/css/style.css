@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6495ed;
+    background-color: #5c84ce;
 }
 .logo {
     width: 50px;
@@ -30,25 +30,25 @@
     color: white;
     margin: 50px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
 }
 .nav > .contacts {
     color: white;
     margin: 50px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
 }
 .nav > .me {
     color: white;
     margin: 50px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
 }
 .nav > .cool {
     color: white;
     margin: 50px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    margin: auto;
+    width: 970px;
+    height: fit-content;
+    background-color: navy;
+
+}
+#header {
+    background-color: red;
+    margin: auto;
+    border-radius: 25px; /* I searched Google for "div header round corners css" and this is where I found the solution: https://www.w3schools.com/css/css3_borders.asp */
+    padding: 20px;
+    width: 900px;
+    height: 50px;
+}
+#navigation {
+    background-color: lightblue;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 25px;
+    margin: 20px 15px;
+    padding: 25px;
+    width: 200px;
+    height: 300px;
+}
+#main_content {
+    background-color: green;
+    border-radius: 25px;
+    display: inline-block;
+    width: 680px;
+    height: fit-content;
+    margin: 20px 0;
+}
+.subcontent1 {
+    background-color: pink;
+    border-radius: 25px;
+    display: inline-block;
+    width: 680px;
+    margin: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+.subcontent2 {
+    background-color: blueviolet;
+    border-radius: 25px;
+    display: inline-block;
+    width: 680px;
+    margin: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+}
+#footer {
+    background-color: brown;
+    border-radius: 25px;
+    display: inline-block;
+    width: 950px;
+    margin: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 150px;
+}
