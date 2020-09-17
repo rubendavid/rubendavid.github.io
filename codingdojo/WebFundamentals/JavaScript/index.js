@@ -32,19 +32,19 @@
 // part 3: step, how many to go up each loop
 // (  part 1  ; part 2 ; part 3 )
 
-for (var i = 0; i < 21; i++) {
-    if(i % 2 != 0){
-        console.log(i);
-    }
-}
+// for (var i = 0; i < 21; i++) {
+//     if(i % 2 != 0){
+//         console.log(i);
+//     }
+// }
 
-var sum = 0;
+// var sum = 0;
 
-for (var i = 1; i < 6; i++) {
-    sum = sum + i;
-    console.log("Num: " + i);
-    console.log("Sum: " + sum);
-}
+// for (var i = 1; i < 6; i++) {
+//     sum = sum + i;
+//     console.log("Num: " + i);
+//     console.log("Sum: " + sum);
+// }
 
 // for (var i = 1; i <= 20; i++) {
 //     if (i % 2 != 0) {
@@ -55,3 +55,56 @@ for (var i = 1; i < 6; i++) {
 //     }
 //     console.log(i);
 // }
+
+// Predict 1: 
+
+var arr = [8, 6, 7, 5, 3, 0, 9]
+for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
+// 8
+// 6
+// 7
+// 5
+// 3
+// 0
+// 9
+
+
+// // Predict 2:
+
+var arr = [7, 3, 8, 4, 2, 0, 1];
+for (var i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 == 0) {
+        console.log(arr[i]);
+    }
+    else {
+        console.log("That is odd!");
+    }
+}
+// That is odd!
+// That is odd!
+// 8
+// 4
+// 2
+// 0
+// That is odd!
+
+// // Predict 3:
+
+var arr = [1, 3, 8, -5, 0, -2, 4, -1];
+var newArr = [];
+for (var i = 0; i < arr.length; i++) {
+    if (arr[i] < 0) {
+        newArr.push(arr[i]);
+        arr[i] = arr[i] * -1;
+    }
+    else if (arr[i] == 0) {
+        arr[i] = "Zero";
+    }
+    else {
+        arr[i] = arr[i] * -1;
+    }
+}
+console.log(arr);
+console.log(newArr);

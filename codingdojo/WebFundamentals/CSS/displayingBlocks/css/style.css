@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* * {
+    outline: 1px solid red;
+} */
+body {
+    background-color: white;
+}
+h1 {
+    font-size: 30px;
+}
+.wrapper {
+    background-color: #D4D2AE;
+    width: 700px;
+    height: 615px;
+    margin: auto;
+}
+div.header {
+    display: flex;
+    width: 625px;
+    
+}
+div.container {
+    margin: auto 10px;
+    width: fit-content;
+    min-height: 660px;
+    padding-left: 15px;
+}
+div.header > img {
+    width: 60px;
+    padding: 2px;
+    vertical-align: top;
+
+}
+div.container > img {
+    display: inline-block;
+    width: 100px;
+    padding: 8px 8px;
+    vertical-align: top;
+}
+img.github {
+    margin-left: 160px;
+    width: 250px;
+}
+img.ninja {
+    width: 100px;
+    background-color: white;
+}
+img.icons1 {
+    background-color: #82B4EE;
+    border: 4px solid black;
+    margin: 2px 2px;
+}
+img.icons2 {
+    background-color: #F36870;
+    border: 4px solid black;
+    margin: 2px 2px;
+}
