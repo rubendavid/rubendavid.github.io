@@ -32,29 +32,29 @@
 // part 3: step, how many to go up each loop
 // (  part 1  ; part 2 ; part 3 )
 
-// for (var i = 0; i < 21; i++) {
-//     if(i % 2 != 0){
-//         console.log(i);
-//     }
-// }
+for (var i = 0; i < 21; i++) {
+    if(i % 2 != 0){
+        console.log(i);
+    }
+}
 
-// var sum = 0;
+var sum = 0;
 
-// for (var i = 1; i < 6; i++) {
-//     sum = sum + i;
-//     console.log("Num: " + i);
-//     console.log("Sum: " + sum);
-// }
+for (var i = 1; i < 6; i++) {
+    sum = sum + i;
+    console.log("Num: " + i);
+    console.log("Sum: " + sum);
+}
 
-// for (var i = 1; i <= 20; i++) {
-//     if (i % 2 != 0) {
-//         i += 2;
-//     }
-//     else if (i % 3 == 0) {
-//         i++;
-//     }
-//     console.log(i);
-// }
+for (var i = 1; i <= 20; i++) {
+    if (i % 2 != 0) {
+        i += 2;
+    }
+    else if (i % 3 == 0) {
+        i++;
+    }
+    console.log(i);
+}
 
 // Predict 1: 
 
