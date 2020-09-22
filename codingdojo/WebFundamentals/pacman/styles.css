@@ -1,9 +1,7 @@
 body {
     background-color: black;
 }
-div.wrapper {
-    margin: 0 auto;
-    width: 1350px;
+div.empty {
 }
 div.row div {
     width: 20px;
