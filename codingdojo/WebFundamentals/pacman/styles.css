@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+div.wrapper {
+    margin: 0 auto;
+    width: 1350px;
+}
+div.row div {
+    width: 20px;
+    height: 20px;
+    border: 1px double black;
+    display: inline-block;
+}
+div.brick {
+    background-color: blue;
+}
+div.coin {
+    background: url(coin_ani.gif) no-repeat center;
+}
+div.pacman {
+    background: url(pacman.gif);
+    background-size: cover;
+}
+div.a_ghost {
+    background: url(a_ghost.gif);
+    background-size: cover;
+}
+div.b_ghost {
+    background: url(b_ghost.gif);
+    background-size: cover;
+}
+div.c_ghost {
+    background: url(c_ghost.gif);
+    background-size: cover;
+}
+div.d_ghost {
+    background: url(d_ghost.gif);
+    background-size: cover;
+}

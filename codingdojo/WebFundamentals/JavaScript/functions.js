@@ -1,7 +1,12 @@
-function counter() {    
-    for (var num = 0; num <= 5; num++) {        
-        console.log(num);    
+function sum1to5Array () {
+    var arr = [6, 3, 5, 1, 2, 4]
+    var sum = 0;
+    for(var i = o; i < arr.length; i++){
+        sum = arr[i] + sum;
     }
+    return "Function is done."
 }
-counter();    // run the function
-counter();    // run the function again
+
+function multiplyByIndex(){
+
+}
