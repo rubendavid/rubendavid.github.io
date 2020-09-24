@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+#container {
+    margin: 0 auto;
+    width: 900px;
+    height: fit-content;
+}
+#container > p {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+#accordion {
+    margin: 0 auto;
+    width: 600px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: darkslategray;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+span {
+    display: none;
+}
+#fa-in {
+    width: 400px;
+    height: 65px;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    background:white;
+    padding-top: 25px;
+}
