@@ -6,6 +6,7 @@
     margin: 0 auto;
     width: 600px;
     text-align: center;
+    padding: 20px 20px;
 }
 #container {
     margin: 0 auto;
@@ -32,15 +33,25 @@
     border: 1px solid black;
     transition: 0.5s;
 }
-span {
-    display: none;
-}
-#fa-in {
+#btnIn {
+    margin: 0 auto;
     width: 400px;
     height: 65px;
     font-size: 36px;
     text-align: center;
-    color: black;
-    background:white;
+    color: white;
+    background: black;
     padding-top: 25px;
+    display: none;
+}
+#btnFo {
+    margin: 0 auto;
+    width: 400px;
+    height: 65px;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    background: black;
+    padding-top: 25px;
+    display: none;
 }

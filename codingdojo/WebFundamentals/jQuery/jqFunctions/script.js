@@ -27,12 +27,38 @@ $("button").css("background-color", "yellow");
 $("button").css("width", "500px");
 $("button").css("background-color", "yellow");
 });
-$("#fa-in").click(function () {
-$("#fin").fadeIn(3000, function () {
-    $("span").fadeIn(100);
-    });
-});
 
+$( "#btn" ).click(function() {
+$( "#btnIn" ).fadeIn("fast", function() {
+});
+return false;
+});
+$("#btnF").click(function () {
+$("#btnIn").fadeOut("fast", function () {});
+return false;
+});
+$(document.body).click(function () {
+if ($("#slideU").first().is(":hidden")) {
+    $("#slideU").show("slow");
+} else {
+    $("#slideU").slideUp();
+}
+});
+$(document.body).click(function () {
+if ($("#slideD").first().is(":hidden")) {
+    $("#slideD").show("slow");
+} else {
+    $("#slideD").slideDown();
+}
+});
+$("#tog").click(function () {
+$("#togg").toggle();
+});
+$("#slitog").click(function () {
+$("#slitogg").slideToggle("slow");
+});
+$("#before").before($("b"));
+$("#after").after($("#bafter"));
 
 // console.log($)
 for (var i = 0; i <= 1000; i++) {
