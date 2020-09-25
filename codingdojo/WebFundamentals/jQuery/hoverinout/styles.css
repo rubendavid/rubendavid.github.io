@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div.container {
+    margin: 0 auto;
+    width: 900px;
+}
+div > img {
+    width: 200px;
+    margin: 50px 0px 50px 4px;
+    padding: 10px 10px;
+}
