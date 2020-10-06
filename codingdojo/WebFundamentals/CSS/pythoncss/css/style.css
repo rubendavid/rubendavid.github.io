@@ -1,0 +1,35 @@
+/* * {
+    outline: 2px solid red;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+div.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 900px;
+}
+div.header {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    height: 250px;
+    background-color: #245076;
+}
+div.header > img {
+    width: 290px;
+    height: 82px;
+    margin: 25px 15px;
+}
+#search-field {
+    width: 227px;
+    height: 75px;
+    margin: 25px 25px;
+    border: 25px solid black;
+    box-sizing: border-box;
+}
+#btn {
+    width: 25px;
+    height: 25px;
+}
