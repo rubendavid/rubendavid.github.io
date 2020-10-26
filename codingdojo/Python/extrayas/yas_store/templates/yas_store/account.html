@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>ExtraYAS Baby - My Account Page</title>
+    {% load static %}
+    <link href="{% static 'css/yas/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/yas/yas-store.css' %}" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NavBar -->
+    {% include 'yas_store/navbar.html' %}
+
+    {% block content %}
+    
+    <h1>Your Account Page Fool!</h1>
+
+    {% endblock content %}
+
+    <!-- Footer -->
+    {% include 'yas_store/footer.html' %}
+
+    <!-- Scripts -->
+    <script src="{% static 'jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+
+</html>
