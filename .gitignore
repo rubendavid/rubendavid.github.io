@@ -1,3 +1,4 @@
 node_modules/
 .DS_Store
 codingdojo/WebFundamentals/.DS_Store
+.vscode
