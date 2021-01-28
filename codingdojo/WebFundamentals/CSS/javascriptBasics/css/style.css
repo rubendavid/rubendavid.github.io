@@ -7,13 +7,14 @@ h1 {
     font-size: 40px;
     color: rgb(71, 207, 248);
 }
+
 #wrapper {
     margin: auto;
     width: 970px;
     height: fit-content;
     background-color: navy;
-
 }
+
 #header {
     background-color: red;
     margin: auto;
@@ -22,9 +23,10 @@ h1 {
     width: 900px;
     height: 50px;
 }
+
 #navigation {
     background-color: rgb(86, 132, 153);
-        color: rgb(71, 207, 248);
+    color: rgb(71, 207, 248);
     display: inline-block;
     vertical-align: top;
     border-radius: 25px;
